@@ -1,0 +1,50 @@
+
+
+
+.container {
+	// margin: 1rem;
+	flex-basis: 45%;
+	text-align: left;
+	background: white;
+	max-width: 400px;
+	text-decoration: none;
+	border: 1px solid black;
+	transition: color 0.15s ease, border-color 0.15s ease;
+
+	display: flex;
+	
+
+	.generalInforations {
+		margin: 0.5rem;
+		flex-direction: column;
+
+		.dates {
+			.title {
+				text-transform: uppercase;
+				font-weight:bold;
+				font-size: 18px;
+			}
+			.titleOriginal {
+				font-size: 14px;
+
+				color: grey
+			}
+		}
+
+		.otherInformations {
+			display: flex;
+			flex-direction: column;
+			align-content: space-around;
+
+			
+		}
+		
+
+	}
+
+	.poster {
+		max-height: 180px;
+		
+	}
+
+}
